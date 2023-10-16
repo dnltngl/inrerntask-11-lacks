@@ -23,6 +23,9 @@ button{
     margin-bottom: 2rem;
 }
 
+.gallery{
+    /* height: 100vh; */
+}
 
 .gallery-bg{
     max-width: 100%;
