@@ -1,0 +1,34 @@
+.home{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-size:1.5rem ;
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 4rem;
+}
+.p-1{
+    max-width: 90ch;
+    padding: 1rem;
+}
+button{
+    padding: 1rem;
+    border-radius: 50em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.gallery-bg{
+    max-width: 100%;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   
+
+}
