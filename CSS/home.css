@@ -23,32 +23,28 @@ button{
     margin-bottom: 2rem;
 }
 
-.gallery{
-    /* height: 100vh; */
-}
-
 .gallery-bg{
-    max-width: 100%;
-   /* display: flex;
-   justify-content: center;
-   align-items: center; */
+    min-width: 100%;
+
 }
 
 .container-1{
-    height: 90vh;
-    margin-top: 5rem;
+    padding: 10rem;
     background-color: #EFEFEF;
     display: flex;
     justify-content: center;
     align-items: center;  
     flex-direction: row;
+  
 }
 
 .box-1{
     display: flex;
-    margin-top: 8rem;
-   background-color: #F9F9F9; 
-   z-index: 1;
+    background-color: #F9F9F9; 
+    position: relative;
+    padding-bottom: 4rem;
+    
+   
 }
 
 .gearcage{
@@ -57,15 +53,16 @@ button{
     max-width: 35rem;
 }
 .img-1{
-    max-width: 27rem;
-    
-    margin-right: 3rem;
-    margin-bottom:10rem ;
+    max-width: 28rem;
+    position: relative;
+    bottom: 4rem;
+    right: 3rem;
 }
-/* .img-2{
-    
-    z-index: 1;
-} */
+.img-2{
+    position: relative;
+    left: 3rem;
+}
+
 .title-2{
     margin-top: 2rem;
     padding: 1rem;
@@ -86,4 +83,54 @@ button{
     margin-left: 1rem;
     margin-bottom: 1rem;
 }
+/* --------------- */
+
+.advantages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem; 
+}
+
+.advantages img {
+    max-width: 100%;
+    height: auto;
+}
+
+.advantages h3 {
+    font-size: 18px;
+}
+
+.advantages p {
+    font-size: 14px;
+}
+.box-2{
+    max-width: 1250px;
+    margin-inline: auto;
+    margin-bottom: 5rem;
+}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 1.5rem;
+}
+.p5{
+    font-size: 1rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+.p-6{
+    font-size: 3rem;  
+}
+.widget{
+    width: 2rem;
+    height: 5rem;
+}
+.h3-1{
+    margin-bottom: 1rem;
+}
+hr{
+    margin-top: 1rem;
+}
+
 
