@@ -32,6 +32,58 @@ button{
    /* display: flex;
    justify-content: center;
    align-items: center; */
-   
-
 }
+
+.container-1{
+    height: 90vh;
+    margin-top: 5rem;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: row;
+}
+
+.box-1{
+    display: flex;
+    margin-top: 8rem;
+   background-color: #F9F9F9; 
+   z-index: 1;
+}
+
+.gearcage{
+    display: flex;
+    flex-direction: column;
+    max-width: 35rem;
+}
+.img-1{
+    max-width: 27rem;
+    
+    margin-right: 3rem;
+    margin-bottom:10rem ;
+}
+/* .img-2{
+    
+    z-index: 1;
+} */
+.title-2{
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.p-2{
+    margin-bottom: 1rem;
+   margin-left: 1rem;
+   font-size: 3rem;
+}
+.p-3{
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+.btn-2{
+    padding: 1rem;
+    border-radius: 50em;
+    width: 10rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
