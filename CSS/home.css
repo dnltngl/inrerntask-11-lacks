@@ -132,5 +132,63 @@ button{
 hr{
     margin-top: 1rem;
 }
+/* --------ourWorks------------ */
+
+.box-3{
+    background-color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ourwork{
+margin-top: 10rem;
+}
+.p-8{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+
+}
+.p-9{
+    font-size: 3rem;
+   max-width: 30rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px;  */
+}
+
+.grid-container div {
+    text-align: center;
+    /* padding: 20px; */
+    /* border: 1px solid #ccc; */
+}
+
+.grid-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-container h3 {
+    font-size: 18px;
+    /* margin: 10px 0; */
+}
+
+.grid-container p {
+    font-size: 14px;
+    /* margin: 10px 0; */
+}
+
+.grid-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
 
 
