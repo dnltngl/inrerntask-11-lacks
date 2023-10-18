@@ -154,6 +154,7 @@ margin-top: 10rem;
 }
 
 .grid-container {
+    background-color: #EFEFEF;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -173,12 +174,12 @@ margin-top: 10rem;
 }
 
 .grid-container h3 {
-    font-size: 18px;
+    font-size: 25px;
     /* margin: 10px 0; */
 }
 
 .grid-container p {
-    font-size: 14px;
+    font-size: 18px;
     /* margin: 10px 0; */
 }
 
