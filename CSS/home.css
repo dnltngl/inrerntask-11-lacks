@@ -554,3 +554,6 @@ hr {
     justify-content: center;
     margin-top: 2rem;
 }
+button{
+    cursor: pointer;
+}

@@ -21,6 +21,7 @@ button{
     padding: 1rem;
     border-radius: 50em;
     width: 10rem;
+    cursor: pointer;
 }
 .btn_1{
     margin-top: 1rem;
@@ -76,6 +77,81 @@ ul li{
     max-width: 30rem;
     color: #646464;
 }
+.container-2{
+    height: 70vh;
+    background-color: #EFEFEF;
+    display: flex;
+    padding-left: 24rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    gap: 4rem;
+}
+
+.box-2{
+    display: flex;
+    justify-content: center;
+}
+.p-6{
+    font-size: 2.9rem;
+    max-width: 40rem;
+}
+.p-7{
+    font-size: 1.2rem;
+    max-width: 36rem;
+    margin-top: 1.5rem;
+}
+.p-8{
+    font-size: 1.2rem;
+    padding-top: 6rem;
+    max-width: 36rem ;
+}
+.p-9{
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    max-width: 36rem ;
+}
+.image-resize{
+    display: flex;
+    z-index: 1;
+    padding-left: 24rem;
+    max-width: 50rem;
+    gap: 2rem;
+}
+.comp{
+    position: relative;
+    max-width: 50rem;
+    max-height: 40rem;
+    bottom: 20rem;
+}
+.bike{
+    position: relative;
+    max-width: 40rem;
+    max-height: 40rem;
+    bottom: 20rem;
+}
+.container-3{
+    position: relative;
+    bottom: 10rem;
+    display: flex;
+    padding-left: 24rem;
+    gap: 5rem;
+}
+.p-10{
+    font-size: 2.9rem;
+    max-width: 40rem;
+}
+.p-11{
+    font-size: 1rem;
+    max-width: 35rem;
+    margin-top: 1.5rem;
+    line-height: 1.7rem;
+}
+.box-4{
+    position: relative;
+    bottom: 3rem;
+    width: 35%;
+}
+
 
 
 
