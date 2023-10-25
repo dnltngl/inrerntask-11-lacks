@@ -1,0 +1,43 @@
+.h1-3 {
+    font-size:  4.3rem;
+    font-weight: 600;
+    max-width: 65rem;
+}
+.imagehead{
+    background-image: url(/ASSETS/blckhead.jpg);
+    min-width: 100%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    height: 45rem;
+}
+.box-11{
+background-color:#E4DCD3 ;
+padding:7rem;
+border-radius: .5rem;
+
+}
+.container-6{
+    z-index: 1;
+    position: relative;
+    padding-left: 30rem;
+    max-width: 90rem;
+    bottom: 7rem;
+   
+}
+.p-15{
+    position: relative;
+    left: 5rem;
+    max-width:36rem ;
+    text-align: center;
+    font-size:2rem ;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+.p-16{
+    font-size:1rem ;
+    margin-top: 1rem;
+    position: relative;
+    left: 5rem;
+    max-width:35rem ;
+    text-align: center;
+}
