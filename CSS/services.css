@@ -256,6 +256,51 @@ ul li {
     background: #ff8100;
 }
 
+.box-color {
+    background-color: #EFEFEF;
+}
+
+.container-4 {
+    display: flex;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.container-5 {
+    display: flex;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.box-6 {
+
+    max-width: 1250px;
+    margin-inline: auto;
+    margin-bottom: 5rem;
+
+}
+.p-14{
+    font-size: 3rem;
+}
+
+.graphic {
+    background-color: #F9F9F9;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.creative {
+    background-color: #F9F9F9;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.avatarimg {
+    width: 3rem;
+    border-radius: 50%;
+}
+
+
 
 
 
