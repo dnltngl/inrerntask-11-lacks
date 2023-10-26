@@ -1,53 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/CSS/services.css" />
-        <link rel="stylesheet" href="/CSS/navbar.css" />
-        <link rel="stylesheet" href="/CSS/about.css" />
-        <script src="https://kit.fontawesome.com/9182a09e23.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <title>Services</title>
-    </head>
-<body>
-     <!-- -----------------Navbar--------------------------- -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/services.css" />
+    <link rel="stylesheet" href="/CSS/navbar.css" />
+    <link rel="stylesheet" href="/CSS/about.css" />
+    <link rel="stylesheet" href="/CSS/contact.css" />
+
+    <script
+      src="https://kit.fontawesome.com/9182a09e23.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Services</title>
+  </head>
+  <body>
+    <!-- -----------------Navbar--------------------------- -->
     <header>
-        <a href="#" class="logo"><img src="/ASSETS/lacklogo.png" alt="" /></a>
-        <a href="#" class="menu-open" id="nav-open">
-            <i class="fa-solid fa-bars"></i>
-        </a>
+      <a href="#" class="logo"><img src="/ASSETS/lacklogo.png" alt="" /></a>
+      <a href="#" class="menu-open" id="nav-open">
+        <i class="fa-solid fa-bars"></i>
+      </a>
     </header>
     <nav class="hide">
-        <a class="nav-close" id="nav-close"><i class="fa-solid fa-circle-xmark"></i></a>
-        <a href="/HTML/index.html" class="nav-links">Home</a>
-        <a href="#" class="nav-links">Portfolio</a>
-        <a href="#" class="nav-links">Works</a>
-        <a href="#" class="nav-links">Blog</a>
-        <a href="/HTML/services.html" class="nav-links">Service</a>
-        <a href="/HTML/about.html" class="nav-links">About</a>
-        <a href="#" class="nav-links">Contact</a>
+      <a class="nav-close" id="nav-close"
+        ><i class="fa-solid fa-circle-xmark"></i
+      ></a>
+      <a href="/HTML/index.html" class="nav-links">Home</a>
+      <a href="#" class="nav-links">Portfolio</a>
+      <a href="#" class="nav-links">Works</a>
+      <a href="#" class="nav-links">Blog</a>
+      <a href="/HTML/services.html" class="nav-links">Service</a>
+      <a href="/HTML/about.html" class="nav-links">About</a>
+      <a href="#" class="nav-links">Contact</a>
     </nav>
 
     <script src="/JAVASCRIPT/script.js"></script>
 
     <main>
-        <div class="container-1">
-            <p class="p-1">OUR SERVICES</p>
-            <h1 class="h1-3">LOOK AROUND YOU
-                EVERYTHING IS CHANGING.</h1>
-            <p class="p-2">If you are looking for an agency to help you create a remarkable presence online, you’ve
-                come to the
-                right place. We can help you take your business to the next level.</p>
-            <button class="btn_1">O Get Started Now</button>
+      <div class="container-1">
+        <p class="p-1">OUR SERVICES</p>
+        <h1 class="h1-3">LOOK AROUND YOU EVERYTHING IS CHANGING.</h1>
+        <p class="p-2">
+          If you are looking for an agency to help you create a remarkable
+          presence online, you’ve come to the right place. We can help you take
+          your business to the next level.
+        </p>
+        <button class="btn_1">O Get Started Now</button>
+      </div>
+
+      <!-- -----------------CONTACT-FORM--------------------------- -->
+
+      <section class="contactform">
+        <div class="box-8">
+          <form
+            action="mailto:contact@example.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <div class="flex">
+              <label for="name"></label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Type your name"
+              /><br /><br />
+              <label
+                for="email"
+                required
+                aria-placeholder="Type your Email Address"
+              ></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Type your Email Address"
+              /><br /><br />
+              <br /><br />
+            </div>
+
+            <label for="message"></label>
+            <br />
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              required
+              placeholder="Tell us about you and the world"
+            ></textarea
+            ><br /><br />
+            <br /><br />
+
+            <input type="submit" value="SEND MESSAGE" />
+          </form>
         </div>
 
-         <!-- -----------------CONTACT-FORM--------------------------- -->
+        <div class="box-9">
+          <ul class="ulcontact">
+            <li>HEAD OFFICE:</li>
+            <p>El-Mahalla El-Kubra 37 1776 Damietta Egypt</p>
 
-        <section>
+            <li>PHONES:</li>
+            <p>+1 (850) 344 0 66</p>
 
-        </section>
+            <li>WRITE US:</li>
+            <p>info@dsngrid.com</p>
+          </ul>
+        </div>
+      </section>
 
+      <section class="googlemap">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d634818.6091742998!2d-1.2699345071223884!3d51.57262959024566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876bbf89bbb8507%3A0x9df0a1a42cce12a2!2sRiver%20Thames!5e0!3m2!1sen!2sph!4v1698303574180!5m2!1sen!2sph"
+          width="2500"
+          height="950"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+      <!-- -----------------FOOTER----------------------------->
+        
+      <section>
+        <footer>
+            <div class="box-color-3">
+              <div class="box-10">
+                <div class="footer-title">
+                  <p class="p-13">LET'S BUILD SOMETHING
+                    <i><b>AMAZING</b></i> TOGETHER
+                  </p>
+                  <button class="button-8"> <b>></b> START A PROJECT</button>
+                </div>
+              </div>
+      
+              <div class="container">
+                <div class="row">
+                  <div class="col" id="company">
+                    <img src="/ASSETS/lacklogo.png" alt="" class="logo">
+                    <div class="social">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-linkedin"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                  </div>
+      
+      
+                  <div class="col" id="NAVIGATION">
+                    <h3>Services</h3>
+                    <div class="links">
+                      <a href="#">HOME</a>
+                      <a href="#">PORTFOLIO</a>
+                      <a href="#">NEWS</a>
+                      <a href="#">ABOUT</a>
+                      <a href="#">CONTACT</a>
+                    </div>
+                  </div>
+      
+                  <div class="col" id="useful-links">
+                    <h3>CONTACT</h3>
+                    <div class="links">
+                      <a href="#">T:+001 225 3351</a>
+                      <a href="#">F :+001 225 3351</a>
+                      <a href="#">E : info@dsngrid.com</a>
+      
+                    </div>
+                  </div>
+      
+                  <div class="col" id="contact">
+                    <h3>ADDRESS</h3>
+                    <div class="contact-details">
+                      <p>El-Mahalla El-Kubra 37 <br>1776 Damietta <BR>Egypt8</p>
+                    </div>
+                  </div>
+      
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="footer-ending">
+              <p>© 2022 Digital Agency Designed by <b>DSN Grid</b></p>
+            </div>
+          </footer>
+    </section>
     </main>
-</body>
+  </body>
 </html>
