@@ -6,7 +6,7 @@
 .imagehead{
     background-image: url(/ASSETS/blckhead.jpg);
     min-width: 100%;
-    padding-top: 10rem;
+    padding-top: 5rem;
     padding-bottom: 10rem;
     height: 45rem;
 }
@@ -41,3 +41,115 @@ border-radius: .5rem;
     max-width:35rem ;
     text-align: center;
 } 
+.box-12{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    /* margin-left: 50rem; */
+}
+.p-17{
+    text-align: center;
+}
+.h1-4{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.advantages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.advantages img {
+    max-width: 100%;
+    height: auto;
+}
+
+.advantages h3 {
+    font-size: 18px;
+}
+
+.advantages p {
+    font-size: 14px;
+}
+
+.box-3 {
+    max-width: 1250px;
+    margin-inline: auto;
+    margin-bottom: 5rem;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 1.5rem;
+}
+
+.p5 {
+    font-size: 1rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+
+.p-6 {
+    font-size: 3rem;
+}
+
+.widget {
+    width: 2rem;
+    height: 5rem;
+}
+
+.h3-1 {
+    margin-bottom: 1rem;
+}
+
+hr {
+    margin-top: 1rem;
+}
+.border-2{
+    text-align: center;
+    padding: 1rem;
+    border: solid 1px #E4E4E4;
+    margin-top: 1.5rem;
+    height: 20rem;
+
+}
+.widget{
+    margin-top: 5rem;
+    height: 3rem;
+    width: 3rem;
+}
+.team-wrapper{
+    position: relative;
+    left: 25rem;
+    bottom: -4rem;
+}
+.p-18{
+    text-align: center;
+}
+.h1-5{
+    font-size: 3rem;
+}
+.box-7{
+    max-width: 1250px;
+    margin-inline: auto;
+    margin-bottom: 5rem;
+}
+.container-7{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 15rem;
+}
+.advantages2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+.imglogo{
+    height: 17rem;
+    width: 11rem;
+}
